@@ -1,0 +1,106 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "introduccion",
+    "title": "Introducción: Importancia de la promotoría ambiental como eje de cambio en la conducta",
+    "breadcrumb": ["Inicio","introduccion"],
+    "path": "pages/1-tema.html"
+  },
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "tecnicas",
+    "title": "1. Técnicas y metodologías",
+    "breadcrumb": ["Inicio","tecnicas"],
+    "path": "pages/2-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tecnicas",
+        "title": "1.1 Educación ambiental",
+        "anchor": "11"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tecnicas",
+        "title": "1.2 Promotoría ambiental",
+        "anchor": "12"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tecnicas",
+        "title": "1.3 Formas organizativas",
+        "anchor": "13"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tecnicas",
+        "title": "1.4 Técnicas y habilidades comunitarias",
+        "anchor": "14"
+      }
+    ]
+  },
+  { 
+    "id": 3,
+    "icon": "fa fa-file-text-o",
+    "slug": "planes",
+    "title": "2. Planes y programas",
+    "breadcrumb": ["Inicio","planes"],
+    "path": "pages/3-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "planes",
+        "title": "2.1 Normativa",
+        "anchor": "21"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "planes",
+        "title": "2.2 Planes, programas y proyectos institucionales",
+        "anchor": "22"
+      }
+    ]
+  },
+  { 
+    "id": 4,
+    "icon": "fa fa-file-text-o",
+    "slug": "interpretacion",
+    "title": "3. Interpretación y planes de acción",
+    "breadcrumb": ["Inicio","interpretacion"],
+    "path": "pages/4-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "interpretacion",
+        "title": "3.1 Recolección de la información",
+        "anchor": "31"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "interpretacion",
+        "title": "3.2 Metodologías participativas",
+        "anchor": "32"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "interpretacion",
+        "title": "3.3 Planes de acción ambiental",
+        "anchor": "33"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "interpretacion",
+        "title": "3.4 Agendas interministeriales",
+        "anchor": "34"
+      }
+    ]
+  }
+]

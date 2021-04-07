@@ -1,0 +1,33 @@
+.header-arrow {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  position: relative;
+  background: #02255F;
+  padding: 2rem;
+
+  h1,h2,h3 {
+      text-align: center;
+      margin: 0;
+      color:white;      
+  }
+
+  &--xs {
+    padding: 0;
+    height: 8px;
+  }
+
+}
+
+.header-arrow::before {
+   content: '';
+    border-style: solid;
+    border-width: 25px 25px 0px 25px;
+    border-color: #02255F transparent transparent transparent;
+    position: absolute;
+    left: 46%;
+    transform: translateX(50%);
+    top: 18px;
+    margin-top: 60px; 
+    z-index: 20;
+}
+
